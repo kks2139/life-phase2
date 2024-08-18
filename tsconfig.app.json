@@ -18,7 +18,12 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": "./", // 기본 디렉토리를 현재 디렉토리로 설정
+    "paths": {
+      "@/*": ["src/*"] // '@'를 'src' 디렉토리로 매핑
+    }
   },
   "include": ["src"]
 }

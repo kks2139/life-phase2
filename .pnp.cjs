@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react-swc", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:3.7.0"],\
+          ["classnames", "npm:2.5.1"],\
           ["eslint", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:9.9.0"],\
           ["eslint-config-prettier", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:9.1.0"],\
           ["eslint-plugin-prettier", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.2.1"],\
@@ -41,11 +42,22 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:18.3.1"],\
+          ["sass-embedded", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["typescript-eslint", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:8.1.0"],\
-          ["vite", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.4.1"]\
+          ["vite", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.4.1"],\
+          ["vite-tsconfig-paths", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.0.1"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@bufbuild/protobuf", [\
+      ["npm:1.10.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@bufbuild-protobuf-npm-1.10.0-7f066cde74-10c0.zip/node_modules/@bufbuild/protobuf/",\
+        "packageDependencies": [\
+          ["@bufbuild/protobuf", "npm:1.10.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@esbuild/aix-ppc64", [\
@@ -1180,6 +1192,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["buffer-builder", [\
+      ["npm:0.2.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/buffer-builder-npm-0.2.0-14ffbed838-10c0.zip/node_modules/buffer-builder/",\
+        "packageDependencies": [\
+          ["buffer-builder", "npm:0.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cacache", [\
       ["npm:18.0.4", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/cacache-npm-18.0.4-3dc4edc849-10c0.zip/node_modules/cacache/",\
@@ -1226,6 +1247,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/chownr-npm-2.0.0-638f1c9c61-10c0.zip/node_modules/chownr/",\
         "packageDependencies": [\
           ["chownr", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["classnames", [\
+      ["npm:2.5.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/classnames-npm-2.5.1-c7273f3423-10c0.zip/node_modules/classnames/",\
+        "packageDependencies": [\
+          ["classnames", "npm:2.5.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1904,6 +1934,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["globrex", [\
+      ["npm:0.1.2", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/globrex-npm-0.1.2-ddda94f2d0-10c0.zip/node_modules/globrex/",\
+        "packageDependencies": [\
+          ["globrex", "npm:0.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["graceful-fs", [\
       ["npm:4.2.11", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/graceful-fs-npm-4.2.11-24bb648a68-10c0.zip/node_modules/graceful-fs/",\
@@ -1977,6 +2016,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/ignore-npm-5.3.2-346d3ba017-10c0.zip/node_modules/ignore/",\
         "packageDependencies": [\
           ["ignore", "npm:5.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["immutable", [\
+      ["npm:4.3.7", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/immutable-npm-4.3.7-a76ac3621b-10c0.zip/node_modules/immutable/",\
+        "packageDependencies": [\
+          ["immutable", "npm:4.3.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2188,6 +2236,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react-swc", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:3.7.0"],\
+          ["classnames", "npm:2.5.1"],\
           ["eslint", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:9.9.0"],\
           ["eslint-config-prettier", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:9.1.0"],\
           ["eslint-plugin-prettier", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.2.1"],\
@@ -2198,9 +2247,11 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:18.3.1"],\
+          ["sass-embedded", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["typescript-eslint", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:8.1.0"],\
-          ["vite", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.4.1"]\
+          ["vite", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.4.1"],\
+          ["vite-tsconfig-paths", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.0.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -2760,11 +2811,206 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["rxjs", [\
+      ["npm:7.8.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/rxjs-npm-7.8.1-41c443a75b-10c0.zip/node_modules/rxjs/",\
+        "packageDependencies": [\
+          ["rxjs", "npm:7.8.1"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["safer-buffer", [\
       ["npm:2.1.2", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
         "packageDependencies": [\
           ["safer-buffer", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/sass-embedded-npm-1.77.8-6cd6ff4599-10c0.zip/node_modules/sass-embedded/",\
+        "packageDependencies": [\
+          ["sass-embedded", "npm:1.77.8"],\
+          ["@bufbuild/protobuf", "npm:1.10.0"],\
+          ["buffer-builder", "npm:0.2.0"],\
+          ["immutable", "npm:4.3.7"],\
+          ["rxjs", "npm:7.8.1"],\
+          ["sass-embedded-android-arm", "npm:1.77.8"],\
+          ["sass-embedded-android-arm64", "npm:1.77.8"],\
+          ["sass-embedded-android-ia32", "npm:1.77.8"],\
+          ["sass-embedded-android-x64", "npm:1.77.8"],\
+          ["sass-embedded-darwin-arm64", "npm:1.77.8"],\
+          ["sass-embedded-darwin-x64", "npm:1.77.8"],\
+          ["sass-embedded-linux-arm", "npm:1.77.8"],\
+          ["sass-embedded-linux-arm64", "npm:1.77.8"],\
+          ["sass-embedded-linux-ia32", "npm:1.77.8"],\
+          ["sass-embedded-linux-musl-arm", "npm:1.77.8"],\
+          ["sass-embedded-linux-musl-arm64", "npm:1.77.8"],\
+          ["sass-embedded-linux-musl-ia32", "npm:1.77.8"],\
+          ["sass-embedded-linux-musl-x64", "npm:1.77.8"],\
+          ["sass-embedded-linux-x64", "npm:1.77.8"],\
+          ["sass-embedded-win32-arm64", "npm:1.77.8"],\
+          ["sass-embedded-win32-ia32", "npm:1.77.8"],\
+          ["sass-embedded-win32-x64", "npm:1.77.8"],\
+          ["supports-color", "npm:8.1.1"],\
+          ["varint", "npm:6.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-android-arm", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-android-arm-npm-1.77.8-f4da54eac9/node_modules/sass-embedded-android-arm/",\
+        "packageDependencies": [\
+          ["sass-embedded-android-arm", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-android-arm64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-android-arm64-npm-1.77.8-f7a15a8be9/node_modules/sass-embedded-android-arm64/",\
+        "packageDependencies": [\
+          ["sass-embedded-android-arm64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-android-ia32", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-android-ia32-npm-1.77.8-e83aadcd96/node_modules/sass-embedded-android-ia32/",\
+        "packageDependencies": [\
+          ["sass-embedded-android-ia32", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-android-x64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-android-x64-npm-1.77.8-7d93f99e23/node_modules/sass-embedded-android-x64/",\
+        "packageDependencies": [\
+          ["sass-embedded-android-x64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-darwin-arm64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-darwin-arm64-npm-1.77.8-39d99c4dc3/node_modules/sass-embedded-darwin-arm64/",\
+        "packageDependencies": [\
+          ["sass-embedded-darwin-arm64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-darwin-x64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-darwin-x64-npm-1.77.8-ec28ca2981/node_modules/sass-embedded-darwin-x64/",\
+        "packageDependencies": [\
+          ["sass-embedded-darwin-x64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-linux-arm", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-linux-arm-npm-1.77.8-ef2a61dedd/node_modules/sass-embedded-linux-arm/",\
+        "packageDependencies": [\
+          ["sass-embedded-linux-arm", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-linux-arm64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-linux-arm64-npm-1.77.8-435b3bd4a6/node_modules/sass-embedded-linux-arm64/",\
+        "packageDependencies": [\
+          ["sass-embedded-linux-arm64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-linux-ia32", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-linux-ia32-npm-1.77.8-dba3c2815a/node_modules/sass-embedded-linux-ia32/",\
+        "packageDependencies": [\
+          ["sass-embedded-linux-ia32", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-linux-musl-arm", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-linux-musl-arm-npm-1.77.8-2f98ab2c2c/node_modules/sass-embedded-linux-musl-arm/",\
+        "packageDependencies": [\
+          ["sass-embedded-linux-musl-arm", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-linux-musl-arm64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-linux-musl-arm64-npm-1.77.8-f0529f1f00/node_modules/sass-embedded-linux-musl-arm64/",\
+        "packageDependencies": [\
+          ["sass-embedded-linux-musl-arm64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-linux-musl-ia32", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-linux-musl-ia32-npm-1.77.8-e61c541438/node_modules/sass-embedded-linux-musl-ia32/",\
+        "packageDependencies": [\
+          ["sass-embedded-linux-musl-ia32", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-linux-musl-x64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-linux-musl-x64-npm-1.77.8-1724764641/node_modules/sass-embedded-linux-musl-x64/",\
+        "packageDependencies": [\
+          ["sass-embedded-linux-musl-x64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-linux-x64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-linux-x64-npm-1.77.8-ca6de84877/node_modules/sass-embedded-linux-x64/",\
+        "packageDependencies": [\
+          ["sass-embedded-linux-x64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-win32-arm64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-win32-arm64-npm-1.77.8-2685b5a5cc/node_modules/sass-embedded-win32-arm64/",\
+        "packageDependencies": [\
+          ["sass-embedded-win32-arm64", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-win32-ia32", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-win32-ia32-npm-1.77.8-9a7bb2c251/node_modules/sass-embedded-win32-ia32/",\
+        "packageDependencies": [\
+          ["sass-embedded-win32-ia32", "npm:1.77.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass-embedded-win32-x64", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "./.yarn/unplugged/sass-embedded-win32-x64-npm-1.77.8-ccaaf6645a/node_modules/sass-embedded-win32-x64/",\
+        "packageDependencies": [\
+          ["sass-embedded-win32-x64", "npm:1.77.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2942,6 +3188,14 @@ const RAW_RUNTIME_STATE =
           ["has-flag", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:8.1.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/supports-color-npm-8.1.1-289e937149-10c0.zip/node_modules/supports-color/",\
+        "packageDependencies": [\
+          ["supports-color", "npm:8.1.1"],\
+          ["has-flag", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["synckit", [\
@@ -3016,6 +3270,28 @@ const RAW_RUNTIME_STATE =
           ["ts-api-utils", "virtual:91607b654a9ed032fc863e7b7d157f8e053d7a263e6cd16d85b52fee094beccac49ca48449e3abfe77a18632f2c6311218f87e487c6275f18016c5fbaff048a3#npm:1.3.0"],\
           ["@types/typescript", null],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@types/typescript",\
+          "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tsconfck", [\
+      ["npm:3.1.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/tsconfck-npm-3.1.1-8408859f8b-10c0.zip/node_modules/tsconfck/",\
+        "packageDependencies": [\
+          ["tsconfck", "npm:3.1.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5ca7ec4efccce53c154b519c577ad7faf0244a1f0df75450fbbe787fabd983dd84a522e4c97775fe669ab1c2c8c9ad374de9910a6d149751bb82d0181d0ce958#npm:3.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/tsconfck-virtual-03139a43a1/3/AppData/Local/Yarn/Berry/cache/tsconfck-npm-3.1.1-8408859f8b-10c0.zip/node_modules/tsconfck/",\
+        "packageDependencies": [\
+          ["tsconfck", "virtual:5ca7ec4efccce53c154b519c577ad7faf0244a1f0df75450fbbe787fabd983dd84a522e4c97775fe669ab1c2c8c9ad374de9910a6d149751bb82d0181d0ce958#npm:3.1.1"],\
+          ["@types/typescript", null],\
+          ["typescript", null]\
         ],\
         "packagePeers": [\
           "@types/typescript",\
@@ -3107,6 +3383,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["varint", [\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/varint-npm-6.0.0-a638e8f225-10c0.zip/node_modules/varint/",\
+        "packageDependencies": [\
+          ["varint", "npm:6.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["vite", [\
       ["npm:5.4.1", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/vite-npm-5.4.1-5f1883aa64-10c0.zip/node_modules/vite/",\
@@ -3134,7 +3419,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.41"],\
           ["rollup", "npm:4.20.0"],\
           ["sass", null],\
-          ["sass-embedded", null],\
+          ["sass-embedded", "npm:1.77.8"],\
           ["stylus", null],\
           ["sugarss", null],\
           ["terser", null]\
@@ -3155,6 +3440,31 @@ const RAW_RUNTIME_STATE =
           "stylus",\
           "sugarss",\
           "terser"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vite-tsconfig-paths", [\
+      ["npm:5.0.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/vite-tsconfig-paths-npm-5.0.1-a4cd1cbcaf-10c0.zip/node_modules/vite-tsconfig-paths/",\
+        "packageDependencies": [\
+          ["vite-tsconfig-paths", "npm:5.0.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/vite-tsconfig-paths-virtual-5ca7ec4efc/3/AppData/Local/Yarn/Berry/cache/vite-tsconfig-paths-npm-5.0.1-a4cd1cbcaf-10c0.zip/node_modules/vite-tsconfig-paths/",\
+        "packageDependencies": [\
+          ["vite-tsconfig-paths", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.0.1"],\
+          ["@types/vite", null],\
+          ["debug", "virtual:a6cb4d2ce2c27809f4a2a75c8b2461d05e515651e648fbaf006db11d06155d968a92f3f57ed8eb4fa8f27e44198505a557de86ab86f14dd4bc549a792881842d#npm:4.3.6"],\
+          ["globrex", "npm:0.1.2"],\
+          ["tsconfck", "virtual:5ca7ec4efccce53c154b519c577ad7faf0244a1f0df75450fbbe787fabd983dd84a522e4c97775fe669ab1c2c8c9ad374de9910a6d149751bb82d0181d0ce958#npm:3.1.1"],\
+          ["vite", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:5.4.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/vite",\
+          "vite"\
         ],\
         "linkType": "HARD"\
       }]\
