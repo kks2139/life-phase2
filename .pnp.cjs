@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.9.0"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["@types/react-speech-recognition", "npm:3.9.6"],\
           ["@vitejs/plugin-react-swc", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:3.7.0"],\
           ["classnames", "npm:2.5.1"],\
           ["eslint", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:9.9.0"],\
@@ -42,6 +43,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:18.3.1"],\
+          ["react-speech-recognition", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:4.0.0"],\
           ["sass-embedded", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["typescript-eslint", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:8.1.0"],\
@@ -763,6 +765,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/dom-speech-recognition", [\
+      ["npm:0.0.5", {\
+        "packageLocation": "./.yarn/cache/@types-dom-speech-recognition-npm-0.0.5-a9bbea658f-042e7aa3a8.zip/node_modules/@types/dom-speech-recognition/",\
+        "packageDependencies": [\
+          ["@types/dom-speech-recognition", "npm:0.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/estree", [\
       ["npm:1.0.5", {\
         "packageLocation": "./.yarn/cache/@types-estree-npm-1.0.5-5b7faed3b4-b3b0e33428.zip/node_modules/@types/estree/",\
@@ -798,6 +809,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/react", "npm:18.3.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/react-speech-recognition", [\
+      ["npm:3.9.6", {\
+        "packageLocation": "./.yarn/cache/@types-react-speech-recognition-npm-3.9.6-7bdb1ba0e2-d39d3fc44f.zip/node_modules/@types/react-speech-recognition/",\
+        "packageDependencies": [\
+          ["@types/react-speech-recognition", "npm:3.9.6"],\
+          ["@types/dom-speech-recognition", "npm:0.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2235,6 +2256,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.9.0"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["@types/react-speech-recognition", "npm:3.9.6"],\
           ["@vitejs/plugin-react-swc", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:3.7.0"],\
           ["classnames", "npm:2.5.1"],\
           ["eslint", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:9.9.0"],\
@@ -2247,6 +2269,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:18.3.1"],\
+          ["react-speech-recognition", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:4.0.0"],\
           ["sass-embedded", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["typescript-eslint", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:8.1.0"],\
@@ -2739,6 +2762,28 @@ const RAW_RUNTIME_STATE =
           ["loose-envify", "npm:1.4.0"],\
           ["react", "npm:18.3.1"],\
           ["scheduler", "npm:0.23.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-speech-recognition", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "./.yarn/cache/react-speech-recognition-npm-4.0.0-10f8dad342-2526104466.zip/node_modules/react-speech-recognition/",\
+        "packageDependencies": [\
+          ["react-speech-recognition", "npm:4.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:4.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-speech-recognition-virtual-13f9daa7cf/0/cache/react-speech-recognition-npm-4.0.0-10f8dad342-2526104466.zip/node_modules/react-speech-recognition/",\
+        "packageDependencies": [\
+          ["react-speech-recognition", "virtual:0e0b7e5101e10582003427be0212ae977f1e6aba4e5a311505dacd29197226720084ba3acc6bff13dc01239d6c8afa6e9e067a77b7462ee1dab3870db11c2ca5#npm:4.0.0"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["react", "npm:18.3.1"]\
         ],\
         "packagePeers": [\
           "@types/react",\

@@ -568,6 +568,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/dom-speech-recognition@npm:*":
+  version: 0.0.5
+  resolution: "@types/dom-speech-recognition@npm:0.0.5"
+  checksum: 10c0/042e7aa3a802974b2b10c234ae6c698c0d1f3f68af92dab332f2a105c53e79e1ff5fe4df4f488ec1d34867ea0828653f92acc187b1454ff1d7dbfe898c2d85cb
+  languageName: node
+  linkType: hard
+
 "@types/estree@npm:1.0.5":
   version: 1.0.5
   resolution: "@types/estree@npm:1.0.5"
@@ -588,6 +595,15 @@ __metadata:
   dependencies:
     "@types/react": "npm:*"
   checksum: 10c0/6c90d2ed72c5a0e440d2c75d99287e4b5df3e7b011838cdc03ae5cd518ab52164d86990e73246b9d812eaf02ec351d74e3b4f5bd325bf341e13bf980392fd53b
+  languageName: node
+  linkType: hard
+
+"@types/react-speech-recognition@npm:^3.9.6":
+  version: 3.9.6
+  resolution: "@types/react-speech-recognition@npm:3.9.6"
+  dependencies:
+    "@types/dom-speech-recognition": "npm:*"
+  checksum: 10c0/d39d3fc44f2c5314f6d24864f7d8197271f6529640a46e33965c32ffd4aaba66359d4205a52960a675a07078c6b08ff479fc71ea208c22ec3262230b5fcc4dd6
   languageName: node
   linkType: hard
 
@@ -1772,6 +1788,7 @@ __metadata:
     "@eslint/js": "npm:^9.9.0"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
+    "@types/react-speech-recognition": "npm:^3.9.6"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
     classnames: "npm:^2.5.1"
     eslint: "npm:^9.9.0"
@@ -1784,6 +1801,7 @@ __metadata:
     prettier: "npm:^3.3.3"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
+    react-speech-recognition: "npm:^4.0.0"
     sass-embedded: "npm:^1.77.8"
     typescript: "npm:^5.5.3"
     typescript-eslint: "npm:^8.0.1"
@@ -2213,6 +2231,15 @@ __metadata:
   peerDependencies:
     react: ^18.3.1
   checksum: 10c0/a752496c1941f958f2e8ac56239172296fcddce1365ce45222d04a1947e0cc5547df3e8447f855a81d6d39f008d7c32eab43db3712077f09e3f67c4874973e85
+  languageName: node
+  linkType: hard
+
+"react-speech-recognition@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "react-speech-recognition@npm:4.0.0"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 10c0/25261044669980daeae6e2d93ad236473844abb04302446fc8fcc3070b04d02031a47fbc190db562cdf339072f326df3f0e45a3015a035638f7ecdb617e697c7
   languageName: node
   linkType: hard
 
